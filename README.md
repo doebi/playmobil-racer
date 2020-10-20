@@ -14,6 +14,26 @@ The protocol has been analyzed using the Android application, thanks to the HCI 
 
 The python module is working on Linux by using bluepy.
 
+## Getting Started
+**Install Dependencies**
+```
+sudo apt install python-pip libglib2.0-dev
+```
+
+**Install Requirements**
+```
+sudo pip3 install -r requirements.txt
+```
+
+**Run Demo**
+```
+sudo python3 pmrc.py
+```
+
+Make sure your Racer is turned on and Bluetooth enabled on your computer. The script scans for racers and runs a short demo.
+
+###
+
 ## Troubleshooting
 
 ### Permission Denied
